@@ -1,0 +1,181 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(../images/wall-ambient-03.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+#header {
+    width: 100%;
+    height: 160px;
+}
+
+#h-text {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7vw;
+    font-weight: 600;
+    color: white;
+}
+
+.container {
+    text-align: center;
+
+}
+
+#button-addon2 {
+    background-color: #007bff;
+    color: white;
+}
+
+#ingredients-container {
+    background: transparent;
+    max-height: auto;
+    overflow: auto;
+    word-wrap: wrap;
+    margin-top: auto;
+    text-align: center;
+
+}
+
+#ingredients-text {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 3.5vw;
+}
+
+#ingredients-text-ingredients,
+#randomInfo {
+    color: white;
+    font-family: 'IBM Plex Sans';
+    font-size: 2vw;
+    text-transform: uppercase;
+
+}
+
+
+#search-button {
+    margin-bottom: 40px;
+    margin: 0 auto;
+}
+
+#search-button:hover {
+    color: white;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.row {
+    width: 100%
+}
+
+.modal {
+    max-width: 100% !important;
+}
+
+.modal-page {
+    padding: 20px;
+}
+
+#ing-div {
+    border-radius: 25px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.img {
+    border-radius: 25px;
+}
+
+
+#displayName-input {
+    text-transform: capitalize;
+}
+
+#navbarDropdown {
+    display: none
+}
+
+input[type="radio"] {
+    margin: 0px 10px 0px 10px;
+}
+
+#full-input {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#recipe-container {
+    display: grid;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 7px;
+}
+
+#outer-recipe {
+    display: none;
+}
+
+.recipeDiv {
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+#recipe-image {
+    margin: 5px;
+    overflow: hidden;
+}
+
+#recipe-image {
+    transition: transform .3s ease;
+}
+
+#recipe-image:hover {
+    transform: scale(1.1);
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#rImage {
+    border: 2px solid black;
+}
+
+#faq-page {
+    padding: 10px;
+}
+
+.container-footer {
+    display: block;
+    font-size: 16px;
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    padding-top: 20px;
+}
+
+#randomInfo {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
